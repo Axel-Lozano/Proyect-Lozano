@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body-index {
+    background: url(../img/bkprueba.jpg);
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: rgba(237, 108, 123, 0.7019607843);
+    width: 100%;
+}
+
+.navbar .navbar-nav li {
+    margin-right: 15px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: black;
+}
+
+.main-index {
+    height: auto;
+}
+
+.main-index .section1 {
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-index .carousel-inner {
+    height: 500px;
+}
+
+.main-servic {
+    height: auto;
+}
+
+.main-servic section {
+    height: 400px;
+    background-color: rgba(125, 229, 212, 0.7647058824);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-servic section .btn {
+    background-color: rgb(84, 84, 184);
+}
+
+.footer {
+    background-color: rgba(237, 108, 123, 0.7019607843);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a img {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+
+.logo {
+    height: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

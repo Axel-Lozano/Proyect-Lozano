@@ -1,0 +1,80 @@
+@import "_variables";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body-index{
+    background: url(../img/bkprueba.jpg);
+    width: 100%;
+    background-attachment: fixed;
+}
+
+
+
+.navbar {
+    background-color: $color1;
+    width: 100%;
+    .navbar-nav li{
+        margin-right: 15px;
+    }
+    .navbar-nav .nav-link {
+        color: black;
+    }
+
+}
+
+.main-index{
+    height: auto;
+    .section1{
+        height: 100vh;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .carousel-inner{
+        height: 500px;
+    }
+}
+
+.main-servic{
+    height: auto;
+    section{
+        height: 400px;
+        background-color: $color2;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .btn{
+            background-color: rgb(84, 84, 184);
+        }
+        
+    }
+}
+
+
+
+.footer {
+    background-color: $color1;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    a img {
+        width: 40px;
+        height: 40px;
+        padding: 8px;
+    }
+}
+
+.logo {
+    height: 40px;
+}
