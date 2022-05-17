@@ -46,25 +46,37 @@
         </div>
     </nav>
 
-<div class="container form">
-    <form action="">
-        <fieldset class="cont">
-            <legend class="legend">Completa el formulario</legend>
-            <label for="nombre-usuario">Nombre:</label>
-            <input type="text" name="nombre-usuario" placeholder="Ingrese su nombre"> <br>
-            <label for="apellido-usuario">Apellido:</label>
-            <input type="text" name="apellido-usuario" placeholder="Ingrese su apellido"> <br>
-            <label for="email-usuario">Email:</label>
-            <input type="email" name="email-usuario" placeholder="Ingrese su email"> <br>
-            <label for="mensaje-usuario">Dejanos tu mensaje:</label> <br>
-            <textarea name="mensaje-usuario" id="comentarios" cols="30" rows="10"></textarea>
-        </fieldset>
-    </form>
+    <div class="container">
+        <div class="row" >
+            <div class="col">
+    
+                <div class="m-4">
+                    <label for="nombreinput" class="form-label">Nombre:</label>
+                    <input id="nombreinput" class="form-control" type="text" placeholder="Escribe tu nombre">
+                </div>
+    
+                <div class="m-4">
+                    <label for="apellidoinput" class="form-label">Apellido:</label>
+                    <input id="apellidoinput" class="form-control" type="text" placeholder="Escribe tu apellido">
+                </div>
+    
+                <div class="m-4">
+                    <label for="emailinput" class="form-label">Email:</label>
+                    <input id="emailinput" class="form-control" type="email" placeholder="Escribe tu email">
+                </div>
+    
+                <div class="m-4">
+                    <label for="msginput" class="form-label">Dejame tu mensaje:</label>
+                    <textarea id="msginput" class="form-control"></textarea>
+                </div>
 
-<hr> 
-
-</div>
-
+                <div class="m-4">
+                    <input class="btn btn-primary" type="submit" value="Enviar">
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
     <div class="container ubi">
         <h3>¿Donde estamos?</h3>
         <iframe class="iframe"
