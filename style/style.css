@@ -57,7 +57,7 @@
 .main-sobremi {
   padding-top: 66px;
   width: 100%;
-  height: 100vh;
+  height: auto;
   background-image: linear-gradient(to top, #a6d6ce, #e2808b 90%);
 }
 .main-sobremi p {
